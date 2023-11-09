@@ -1,0 +1,137 @@
+header {
+    background-color: $white-color;
+    transition: all 0.5s;
+    padding: 5px 0;
+    background-attachment: fixed;
+    box-shadow: $box-shadow;
+
+    @include breakpoint("ipad-max") {
+        padding: 5px 0;
+    }
+    .logo{
+        @include breakpoint("ipad-max") {
+           width: 50%;
+         }
+        img{
+            max-width: 70%;
+            @include breakpoint("ipad-max") {
+                max-width: 100%;
+              }
+        }
+    }
+
+    .navbar {
+        padding: 0;
+        &-nav {
+            .nav-item {
+                white-space: nowrap;
+                @include content_flex(flex-start, center);
+
+            }
+
+            .nav-link {
+                display: block;
+                position: relative;
+                color: $primary-color !important;
+                transition: 0.3s;
+                font-size: 0.9375rem;
+                font-weight: 600;
+                padding: 20px !important;
+
+                &.active {
+                    color: $secondary-color;
+                }
+
+                &:hover {
+                    color: $secondary-color !important;
+                }
+            }
+        }
+
+        &-collapse {
+
+            @include breakpoint("ipad-max") {
+                position: fixed;
+                top: 53px;
+                bottom: 15px;
+                z-index: 9999;
+                background: $white-color;
+                left: auto;
+                right: -300px;
+                transition: right 0.5s ease 0s;
+                height: 100%;
+                width: 300px;
+                max-width: 100%;
+                overflow-x: hidden;
+                overflow-y: auto;
+                user-select: none;
+            }
+
+            ul {
+                li {
+                    @include breakpoint("ipad-max") {
+                        border-bottom: 1px solid $white-color;
+                        border-bottom-color: rgba(0, 0, 0, 0.1);
+                    }
+
+                    a {
+                        color: $black-color !important;
+
+                        &.active {
+                            color: $primary-color !important;
+                        }
+                    }
+                }
+            }
+
+            &.show {
+                right: 0;
+
+                ul {
+                    li {
+                        a {
+                            color: $black-color !important;
+
+                            &.active {
+                                color: $primary-color !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        &-toggler {
+            border: none;
+            padding-right: 0;
+            position: relative;
+            z-index: 55555;
+
+            i {
+                color: $black-color;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    &.stick {
+        background-color:$white-color;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9990;
+
+        .nav-link {
+            color: $primary-color;
+        }
+
+        .navbar-toggler-icon {
+            .fa {
+                color: $black-color;
+            }
+        }
+
+    }
+
+}

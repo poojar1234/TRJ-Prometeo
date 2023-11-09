@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 360" style="enable-background:new 0 0 1280 360;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#a);}
+	.st1{fill:#F0F9FF;}
+	.st2{fill:#F8FAFD;filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{mask:url(#e_00000108269741897067910840000008581607473341445280_);}
+	.st4{filter:url(#b);}
+	.st5{opacity:0.6;fill:#D0F0FF;}
+	.st6{opacity:0.1;filter:url(#c);}
+	.st7{fill:#62DCB8;}
+	.st8{filter:url(#d);}
+	.st9{opacity:0.6;fill:#F7EDFD;}
+</style>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1363" id="d" width="1363" x="29" y="-52">
+	<feGaussianBlur  stdDeviation="125"></feGaussianBlur>
+</filter>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1470" id="c" width="1470" x="522" y="-1080">
+	<feGaussianBlur  stdDeviation="125"></feGaussianBlur>
+</filter>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1470" id="b" width="1470" x="-454" y="-961">
+	<feGaussianBlur  stdDeviation="125"></feGaussianBlur>
+</filter>
+<filter  color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="860" id="a" width="1780" x="-250" y="-250">
+	<feGaussianBlur  stdDeviation="125"></feGaussianBlur>
+</filter>
+<g class="st0">
+	<path class="st1" d="M1270,360H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0h1260c5.5,0,10,4.5,10,10v340
+		C1280,355.5,1275.5,360,1270,360z"/>
+</g>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-3889.8" y="-10256" width="22750.2" height="20869.2">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="-3889.8" y="-10256" width="22750.2" height="20869.2" id="e_00000108269741897067910840000008581607473341445280_">
+	<path class="st2" d="M1270,360H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0h1260c5.5,0,10,4.5,10,10v340
+		C1280,355.5,1275.5,360,1270,360z"/>
+</mask>
+<g class="st3">
+	<g class="st4">
+		<g>
+			<circle class="st5" cx="999" cy="586" r="485"/>
+		</g>
+	</g>
+	<g class="st6">
+		<circle class="st7" cx="23" cy="705" r="485"/>
+	</g>
+	<g class="st8">
+		<g>
+			<circle class="st9" cx="569.5" cy="-269.5" r="431.5"/>
+		</g>
+	</g>
+</g>
+</svg>
